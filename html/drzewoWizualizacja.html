@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Przemysław Rewiś">
+    <title>Projekt Grafika 3D</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Drzewo binarne wizualizacja</h1>
+        <nav>
+            <a href="../index.html">&#8962;</a>
+            <a href="./wizualizacje.html">&#8678;</a>
+            <a href=# onclick="rysujDrzewo()">Rysuj</a>
+        </nav>
+        <input type="number" placeholder="Kąt" id="inputangle">
+        <input type="number" placeholder="Długość Gałęzi" id="inputbranch">
+    </header>
+    <article class="articleContent">
+        <canvas id="fractalTree" width="800" height="800"></canvas>
+        <script src="../src/drawFractalTree.js"></script>
+    </article>
+    <footer>
+        &copy; Przemysław Rewiś 2022
+    </footer>
+</body>
+
+</html>

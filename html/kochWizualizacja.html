@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang = "pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Przemysław Rewiś">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projekt Grafika 3D</title>
+        <link rel="stylesheet" href="../index.css">     
+    </head>
+    <body>
+        <header>
+            <h1>Płatek Kocha wizualizacja</h1>
+            <nav>
+                <a href="../index.html">&#8962;</a>
+                <a href="./wizualizacje.html">&#8678;</a>
+                <a href=# onclick="rysujPlatekKocha();this.style.visibility='hidden';">Rysuj</a>
+                <a href=# onclick="window.location.reload();">Wyczyść</a>
+            </nav>
+            <select id="stopienPlatkaKocha">
+                <option value="">Wybierz stopień płatka Kocha</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </header>
+        <article class = "articleContent">
+            <canvas width="400" height="400" id="kochFlake"></canvas>
+            <script src = "../src/drawKochFlake.js"></script> 
+        </article>   
+        <footer>
+            &copy; Przemysław Rewiś 2022
+        </footer> 
+    </body>
+</html>

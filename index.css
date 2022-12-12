@@ -1,0 +1,117 @@
+body{
+    
+    background-image: url("background.jpg");
+	padding-top: 20px; 
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+header {
+    position: fixed;
+    left:0px;
+    top:0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    display: block;
+    padding: auto;
+}
+h1{
+    color: #24252A;
+}
+
+
+canvas{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.articleContent{
+
+  margin-top: 240px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.textContent ul, li, ol{
+  color: aliceblue;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+p{
+  padding-top: 20px;
+  display: block;
+  text-align:  justify;
+  margin-left: 25%;
+  margin-right: 25%;
+  color:  aliceblue;
+}
+
+
+a{
+
+  padding: 5px 10px;
+  font-size: 1.1em;
+  background-color: #24252A;
+  border: 1px solid aliceblue;
+  border-color: aliceblue;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 32px;
+  cursor: pointer;
+
+}
+a:hover{
+  padding: 5px 10px;
+  font-size: 1.1em;
+  background-color: #24252A;
+  border: 1px solid red;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 32px;
+  cursor: pointer;
+
+}
+a:active{
+  padding: 5px 10px;
+  font-size: 1.1em;
+  background-color: #24252A;
+  border: 1px solid lightgreen;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0px;
+    bottom: 0px;
+    right: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    background: #24252A;
+    color: rgb(239, 230, 247);
+}
